@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Шахтёрск</title>
+  </head>
+
+  <body>
+    <header>
+      <img id="imgtitle" src="/Саит/img/Shahtarsk_gerb.png" alt="" />
+      <h1>Шахтёрск - город угля!</h1>
+      <nav class="menu">
+        <ul>
+          <li>
+            <i class="fa fa-home fa-fw"></i><a href="index.html">Главная</a>
+          </li>
+          <li><a href="history.html">История</a></li>
+          <li><a href="Infrastructure.html">Инфраструктура</a></li>
+          <li><a href="culture.html">Культура</a></li>
+          <li><a href="feedback.html">Обратная связь</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="history">
+      <h2>Контактная информация администрации города Шахтерска</h2>
+      <p>
+        Адрес: 86211, ДНР, город Шахтерск, улица Ленина, дом 4 <br />
+        Телефон: (062-55) 4-21-17 <br />
+        Факс: (062-55) 4-57-54 <br />
+        Электронная почта: shahtersk.city@mail.ru
+      </p>
+      <hr />
+      <h2>Форма обратной связи</h2>
+      <form action="" class="postcard">
+        <div class="form-row">
+          <label for="name">Ваше имя</label
+          ><input type="text" id="name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Ваш Email</label
+          ><input type="email" id="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Ваше сообщение</label
+          ><textarea rows="5" id="message" required></textarea>
+        </div>
+        <div class="form-row">
+          <input type="submit" value="Отправить сообщение" />
+        </div>
+        <button disabled>Написать разработчику</button>
+      </form>
+    </div>
+    <footer>
+      <p>Шахтёрск - город угля!</p>
+    </footer>
+  </body>
+</html>
